@@ -1,0 +1,4 @@
+<ul>
+  <!--  [name]="name" Significa que que remos pasar un valor al input llamado name de ese componente.  El name de la derecha es el declarado dentro del ngFor-->
+      <app-user-item *ngFor="let name of names" [name]="name" >Hello {{name}}</app-user-item>
+</ul>
